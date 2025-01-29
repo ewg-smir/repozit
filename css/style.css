@@ -1,0 +1,73 @@
+body {
+  font-family: "Roboto";
+  margin: 0;
+  min-height: 100vh;
+  padding: 0;
+  background-color: #C4C4C4;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.input {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 62px;
+  width: 500px;
+  height: 61px;
+  padding: 13px;
+  color: #000000;
+  font-size: 48px;
+  overflow: auto;
+}
+
+.drop {
+  color: #000000;
+  font-size: 30px;
+  margin: 0 auto;
+  background-color: #E3E3E3;
+
+}
+.drop li{
+  display: none;
+  border: 2px solid #000000;
+  padding-left: 13px;
+  width: 500px;
+  height: 44px;
+  overflow: auto;
+}
+.drop li:hover{
+  background-color: #65CDF9;
+  transition: 0.5s;
+}
+.repozit {
+  color: #000000;
+  font-size: 24px;
+  line-height: 28px;
+  margin: 0 auto;
+  background-color: #E27BEB;
+  margin-top: 45px;
+
+}
+.repozit li{
+  display: flex;
+  border: 1px solid #000000;
+  padding: 8px 17px 8px 16px;
+  width: 503px;
+  height: 101px;
+  overflow: auto;
+  align-items: center;
+  white-space: pre-line;
+}
+.repozit div{
+  margin-left: auto;
+}
+img{
+  width: 42px;
+  height: 38px;
+}
